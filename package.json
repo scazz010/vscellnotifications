@@ -1,8 +1,12 @@
 {
   "name": "cellnotifications",
-  "displayName": "cellnotifications",
+  "displayName": "Jupyter Cell Notifications",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scazz010/vscellnotifications.git"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },

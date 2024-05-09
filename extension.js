@@ -14,7 +14,7 @@ function activate(context) {
 		const configuration = vscode.workspace.getConfiguration()
 		const currentSetting = configuration.get('accessibility.signals.notebookCellCompleted')
 		currentSetting.sound = currentSetting.sound == 'on' ? 'off' : 'on'
-		configuration.update('accessibility.signals.notebookCellCompleted', currentSetting, vscode.ConfigurationTarget.Global)
+		configuration.update('accessibility.signals.notebookCellCompleted', currentSetting, vscode.ConfigurationTarget.Workspace)
 
 
 		// Display a message box to the user
